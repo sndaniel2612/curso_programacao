@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+body{
+background-image: url("./fundo.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+a{
+text-decoration: none;
+
+}
+
+header{
+position: relative;
+}
+
+.headerMenu{
+   
+    width: 99%;
+    margin: auto;
+    overflow: hidden;
+    background-color:#00000062;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+    
+
+}
+.menu{
+    width: 100%;
+    float: right;
+ 
+}
+
+#logo{
+    margin: 0;
+    float: left;
+    margin: 0;
+}
+
+ul{
+     text-align: right;
+     padding: 0;
+     margin: 0;
+     width: 99%;
+     
+}
+
+li{
+    margin: 8px;
+    font-size: 27px;
+    display: inline;
+    
+    
+
+}
+
+.middle{
+    padding-top: 120px;
+    position: relative;
+    align-content: center;
+    text-align: justify;
+    
+}
+
+.description{
+
+    background-color: rgba(255, 255, 255, 0.452);
+    text-align: center;
+    height: 170px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.description h2{
+    font-size:2em;
+    padding-bottom:10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description p{
+    font-size: 1em;
+}
+
+.episode{
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 600px;
+    margin: 10px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.dEpisode{
+    padding: 70px;
+    position: relative;
+    
+    
+}
+
+
+.dEpisode li{
+padding: 0;  
+margin: 0;  
+border: black solid;
+}
+
+.dEpisode div{
+    background-image: url("./microphone.png");
+    background-repeat:no-repeat;
+    background-size: 150px;
+    background-position:top;
+    background-position-y:20px; 
+}	
+
+.dEpisode h3{
+    color:#000000;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.dEpisode P{
+color: #000000;
+text-align: center;
+padding-top: 15PX;
+font-size: 16px;
+}
+
+.ep01{
+background-color: rgba(255, 255, 255, 0.747); 
+height: 450px;
+width: 31%;
+margin: 10px;
+float: left;
+}
+
+.ep02{
+background-color: rgba(255, 255, 255, 0.747); 
+height: 450px;
+width: 31%;
+margin: 10px;
+float: left;
+}
+
+ 
+.ep03{
+background-color: rgba(255, 255, 255, 0.747); 
+height: 450px;
+width: 31%;
+margin: 10px;
+float: left;
+    }   
+
+.bottom{
+
+background-color: rgba(255, 255, 255, 0.747);
+width: 380px;
+height: 480px;
+margin: 10px;
+margin-top: 25px;
+margin-left: 35%;
+
+}
+
+.bottom p{
+    color: #000000;
+    text-align: center;
+    margin-left: 19%;
+    width: 70%;
+    font-weight: bold;
+    font-size: 20px;
+
+}  
+
+.bottom input{
+box-sizing: border-box;
+width: 50%;
+padding:20px;
+margin-left: 27%;
+margin-bottom: 15px;
+margin-top: 10px;
+color: #000000;
+}
+
+input[type="submit"]{
+    background-color: #000000;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 20px;
+    color: white;
+
+}
+
+input[type="reset"]{
+    background-color: #000000;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.footer{
+    background-color: rgb(77, 77, 77);
+    width: 99%;
+    height: 70px;
+    margin-top: 25px;
+    color: white;
+}
+
+.footer p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 25px;
+    float: left;
+}
+
+.footer li{
+    float: right;
+
+}

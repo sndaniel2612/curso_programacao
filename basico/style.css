@@ -1,0 +1,49 @@
+/*resset da Bdoy*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:inherit;
+    width: 780px;
+}
+
+.main{
+    background-color: #000000;
+    padding: 2px;
+    padding-top: 1px;
+    
+}
+
+.cartao{
+    background-color: #000000;
+    margin: 40px;
+    margin-top:3px;
+    height: 348px;
+    width: 700px;
+   
+}
+
+ul{
+background-image: url("./imgs/backgorund.png")  ;
+background-repeat: no-repeat;
+height: 380px;
+background-color: #000000; 
+
+}
+
+li{
+    list-style-type: none;
+    margin: 15;
+    font-weight:500;
+    font-size: xx-large;
+   
+}
+
+#Nome{
+   padding-top: 45px;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
